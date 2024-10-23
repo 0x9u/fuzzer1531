@@ -14,5 +14,8 @@ pub enum endpoints {
   adminQuizIdRestore = "/admin/quiz/{}/restore",
   adminQuizTrashEmpty = "/admin/quiz/trash/empty",
   adminQuizIdTransfer = "/admin/quiz/{}/transfer",
-  adminQuiz
+  adminQuizIdQuestion = "/admin/quiz/{}/question",
+  adminQuizIdQuestionId = "/admin/quiz/{}/question/{}",
+  adminQuizIdQuestionIdMove = "/admin/quiz/{}/question/{}/move",
+  adminQuizIdQuestionIdduplicate = "/admin/quiz/{}/question/{}/duplicate",
 }
